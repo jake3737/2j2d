@@ -23,7 +23,7 @@ jobs:
         env:
           SOURCE_BRANCH: "master"
           DESTINATION_BRANCH: "jd"
-          REPO_URL: "git@gitee.com:lxk0301/jd_scripts.git"
+          REPO_URL: "https://github.com/222111333/ttjijii.git"
           SOURCE_IMAGE: "lxk0301/jd_scripts"
           GITHUB_TOKEN: ${{ secrets.PAT }}
         run: |
